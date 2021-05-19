@@ -1,0 +1,57 @@
+.wrapper {
+  width: 99vw;
+  height: 96vh;
+  background-color: #1d2228;
+  opacity: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #e1e2e2;
+  font-weight: 100;
+  font-size: 8.6vw;
+  text-transform: uppercase;
+
+  margin: 0;
+}
+
+#seconds,
+#tens,
+p {
+  font-size: 7vw;
+  color: #fb8122;
+
+  margin: 5vh 0 5vh 0;
+}
+
+button {
+  width: 15vw;
+  height: 10vh;
+  background-color: #e1e2e2;
+
+  color: #1d2228;
+  font-size: 2.5vw;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#btn-start {
+  border-top-left-radius: 5vh;
+  border-bottom-left-radius: 5vh;
+}
+
+#btn-reset {
+  border-top-right-radius: 5vh;
+  border-bottom-right-radius: 5vh;
+}
+
+button:hover {
+  color: #fb8122;
+  box-shadow: 0 2px 15px rgb(225, 226, 226, 0.4);
+}
